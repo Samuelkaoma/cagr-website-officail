@@ -71,25 +71,17 @@ export default function TeamPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
             {[
               {
-                name: "John Mwanza",
-                title: "GIS Specialist",
+                name: "Samuel Kaoma",
+                title: "Software engineer",
                 image: "/placeholder.svg?height=300&width=300",
               },
               {
-                name: "Sarah Banda",
-                title: "Remote Sensing Expert",
+                name: "Agatha Zulu",
+                title: "Systems engineer",
                 image: "/placeholder.svg?height=300&width=300",
               },
-              {
-                name: "Michael Phiri",
-                title: "Structural Engineer",
-                image: "/placeholder.svg?height=300&width=300",
-              },
-              {
-                name: "Grace Tembo",
-                title: "Training Coordinator",
-                image: "/placeholder.svg?height=300&width=300",
-              },
+             
+              
             ].map((member, index) => (
               <Card key={index} className="overflow-hidden transition-all hover:shadow-md">
                 <div className="aspect-square relative">

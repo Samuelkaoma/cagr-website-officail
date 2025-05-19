@@ -39,7 +39,7 @@ export default function Home() {
               world-class professional training.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button asChild size="lg" className="bg-[#3A9D23] hover:bg-[#3A9D23]/90">
+              <Button asChild size="lg" className="bg-[#2D2D2D] text-[#A8E6A1] hover:bg-[#1f1f1f]">
                 <Link href="/contact">Get in Touch</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-primary hover:bg-white/10">
